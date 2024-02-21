@@ -15,3 +15,19 @@ module.exports = {
 }
 
 ```
+
+## Install
+
+```
+npm i arindam-product-price
+
+```
+
+## How to use
+
+```javascript
+
+console.log("Percentage Discount = ", arindamProductPrice.productPrice(554.98, 22));
+console.log("Flat Discount = ", arindamProductPrice.productPrice(554.98, 22, 'flat'));
+
+```
